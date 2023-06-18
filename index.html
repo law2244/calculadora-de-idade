@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora de idade</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="conteiner">
+        <form action="">
+            <label for="">
+                 <span class="span_title1"> day</span>
+                <input type="number" 
+                class="inputDay"
+                placeholder="DD">
+                <div class="error_field_empty1"> this field is required</div>
+                <div class="error_valid_day1"> must be a valid month</div>
+                <div class="day_inalid"> must be a valid date</div>
+            </label>
+            <label for="">
+                 <span class="span_title2"> month</span>
+                <input type="number" 
+                class="inputMonth"
+                placeholder="MM">
+                <div class="error_field_empty2"> this field is required</div>
+                <div class="error_valid_day2"> must be a valid month</div>
+            </label>
+            <label for="">
+                 <span class="span_title3"> year</span>
+                <input type="number" 
+                class="inputyear"
+                placeholder="YYYY">
+                <div class="error_field_empty3"> this field is required</div>
+                <div class="error_valid_day3"> must be a valid month</div>
+            </label>
+        </form>
+        <div class="buttonResult">
+             <div class="bar"></div>
+             <img src="assets/images/icon-arrow.svg" alt="">
+        </div>
+        <div class="result">
+            <div class="resultYears">
+                <span> --</span> years
+            </div>
+            <div class="resultMonths">
+                <span> -- </span> months
+            </div>
+            <div class="redultDays">
+                <span> -- </span> days
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
