@@ -244,7 +244,7 @@ arrowImg.addEventListener("click" , () => {
 
 
 
-    fieldYear.innerHTML =  calcMonth > date.getMonth() -1  ?  calcDifferenceYear  -1 :  calcDifferenceYear
+    fieldYear.innerHTML =  calcMonth > date.getMonth()   ?  calcDifferenceYear  -1 :  calcDifferenceYear
 
     fieldMonth.innerHTML =  Math.abs(calcDifferenceMonth )
 
@@ -270,6 +270,10 @@ arrowImg.addEventListener("click" , () => {
    
     if(calcDifferenceday < 0) {
         fieldDay.innerHTML = 30 - Math.abs(calcDifferenceday)
+    }
+
+    if(calcDifferenceMonth === 0){
+        fieldMonth.innerHTML = 0
     }
 })
 
