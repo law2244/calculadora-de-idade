@@ -5,4 +5,4 @@ o projeto possui algumas vvalidações nos campos input , em relaçao a data , n
 a 31 no campo de dias e a 12 no campo de messes entre outras validações 
 
 
-![image](https://github.com/law2244/calculadora-de-idade/assets/132855628/43e832f9-af84-4c17-80bc-632f9dcfb8e2)
+![image](https://github.com/law2244/calculadora-de-idade/assets/132855628/1a41b5ba-6f21-4586-b7de-479ad91fe97b)
